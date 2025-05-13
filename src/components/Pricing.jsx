@@ -120,7 +120,7 @@ const Pricing = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <p className="mx-auto text-center text-black-50 font-Poppins-Regular">€10.99/month after that cancel anytime</p>
+                    <p className="mx-auto text-center text-black-50 font-Poppins-Regular">€10.99/month after that / cancel anytime</p>
                 </div>
             </div>
         </div>
