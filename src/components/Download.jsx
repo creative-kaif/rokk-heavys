@@ -26,10 +26,10 @@
                         <motion.div
                             className=" flex download-btn mt-14 max-md:mx-auto max-md:justify-center">
                             <div className="flex">
-                                <a href="https://services.rokk-api.com/"
+                                <a href="https://play.google.com/store/apps/details?id=app.rokk.web&hl=en_IN&pli=1"
                                    className="bg-white p-5 px-8 max-md:px-6 rounded-full">
                                     <img className=" h-7 max-md:h-6" src={Andriod} alt=""/></a>
-                                <a href="https://services.rokk-api.com/"
+                                <a href="https://apps.apple.com/cz/app/rokk-streaming/id6448976457"
                                    className="ml-4 bg-white p-5 px-8 max-md:px-6  rounded-full">
                                     <img className="h-7 max-md:h-6" src={Apple} alt=""/>
                                 </a>
