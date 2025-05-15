@@ -23,9 +23,7 @@ const App = () => {
                     src={Banner} className="w-100% bg-cover object-cover fixed z-0"
                     alt=""/>
 
-                {/*<video  className="w-screen -z-10  h-screen" height="100%" width="200%"  loop>*/}
-                {/*    <source src={Video} type="video/mp4"/>*/}
-                {/*</video>*/}
+
 
             </div>
             <Navbar/>
