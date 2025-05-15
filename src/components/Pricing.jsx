@@ -53,9 +53,7 @@ const Pricing = () => {
                         viewport={{ once: true}}
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="content-head text-center">
-                        {/*<h1 className=" text-center text-6xl max-w-7xl max-md:text-4xl mx-auto font-TitlingGothicFB text-white tracking-wide leading-none uppercase">*/}
-                        {/*    Exclusively for <span><img src={HeavysIcon} className="" alt=""/></span> customers*/}
-                        {/*</h1>*/}
+
                         <h1 className="ml-3 text-6xl max-md:text-4xl max-w-4xl tracking-wide font-TitlingGothicFB text-white uppercase text-center items-center">Exclusively for <span><img
                             src={HeavyIcon} className="relative -mt-4 max-md:-mt-0 inline items-center max-md:w-6 max-md:mx-1 mx-3 mb-2"
                             alt=""/>HEAVYS</span> customers</h1>
@@ -94,7 +92,7 @@ const Pricing = () => {
                                         <p className=" mt-4 font-Poppins-Regular text-lg text-Orange-200">for the first 3 months after trial.</p>
                                         <div className="btn">
                                             <div className="relative mt-12 max-md:mb-12">
-                                                <a href="https://services.rokk-api.com/"
+                                                <a href="https://services.rokk-api.com/?ref=heavys"
                                                    className="shadow-xl shadow-Orange-200/20 hover:shadow-Orange-200/30 font-Poppins-Bold  max-md:py-4 max-md:px-5 max-md:text-xs py-4 px-8 rounded-full bg-Orange-200  text-white tracking-[1px] uppercase text-sm hover:text-black-400 hover:bg-gradient-to-r hover:from-Orange-200 hover:to-Orange-100 transition-all">
                                                     START YOUR 90 DAYS FREE TRIAL
                                                 </a>
