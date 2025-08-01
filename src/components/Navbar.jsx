@@ -7,9 +7,9 @@ const Navbar = () => {
             <div className="container px-4 max-md:px-8 md:px-4 mx-auto relative text-sm">
                 <div className="flex justify-center items-center">
 
-                        <div className="">
-                            <img className="h-12 max-md:h-8" src={logo} alt=""/>
-                        </div>
+                    <div className="">
+                        <img className="h-28 max-md:h-20" src={logo} alt="" />
+                    </div>
 
                 </div>
             </div>

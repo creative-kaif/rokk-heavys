@@ -13,46 +13,46 @@ const Footer = () => {
                     <div className="grid grid-cols-2  gap-6 justify-between items-center pb-12 mx-auto">
 
                         <div className="col-span-1 max-sm:col-span-2 max-lg:col-span-2 gap-6 mx-auto">
-                            <img className="col-span-1 h-11 max-md:h-8" src={logo} alt=""/>
+                            <img className="col-span-1 h-28 max-md:h-24" src={logo} alt="" />
                         </div>
                         <div className="flex col-span-1 max-sm:col-span-2 max-lg:col-span-2 gap-6 mx-auto">
                             <a href="https://www.youtube.com/@ROKKSTREAMING"
-                               className="pl-6 max-md:pl-3  rounded-full border-0 ">
-                                <img className="h-14 max-md:h-10" src={Youtube} alt=""/>
+                                className="pl-6 max-md:pl-3  rounded-full border-0 ">
+                                <img className="h-14 max-md:h-10" src={Youtube} alt="" />
                             </a>
                             <a href="https://www.instagram.com/rokkstreaming/"
-                               className="pl-6 max-md:pl-3  rounded-full border-0 ">
-                                <img className="h-14 max-md:h-10" src={Insta} alt=""/>
+                                className="pl-6 max-md:pl-3  rounded-full border-0 ">
+                                <img className="h-14 max-md:h-10" src={Insta} alt="" />
                             </a>
                             <a href="https://www.facebook.com/rokkstreamingapp"
-                               className="pl-6 max-md:pl-3 rounded-full border-0 ">
-                                <img className="h-14 max-md:h-10" src={Fb} alt=""/>
+                                className="pl-6 max-md:pl-3 rounded-full border-0 ">
+                                <img className="h-14 max-md:h-10" src={Fb} alt="" />
                             </a>
                         </div>
 
                     </div>
                 </div>
                 <div className="h-[2px] bg-black-200"></div>
-                     <div className="footer-2 mt-12 max-md:mt-8">
-                         <div className="flex max-md:block max-md:text-center  justify-between items-center">
-                             <div className="copyright">
-                                 <a href=""
-                                    className="text-black-50 font-Poppins-Regular text-base">
-                                     © 2025 ROKK. All Right Reserved.
-                                 </a>
-                             </div>
-                             <div className="max-md:mt-6 terms">
-                                 <a href="https://rokk-app.com/privacy-policy"
-                                    className="text-black-50 font-Poppins-Regular text-base ">
-                                     Privacy Policy
-                                 </a>
-                                 <a href="https://rokk-app.com/terms-of-use"
-                                    className="ml-10 text-black-50 font-Poppins-Regular text-base ">
-                                     Terms of Use
-                                 </a>
-                             </div>
-                         </div>
-                     </div>
+                <div className="footer-2 mt-12 max-md:mt-8">
+                    <div className="flex max-md:block max-md:text-center  justify-between items-center">
+                        <div className="copyright">
+                            <a href=""
+                                className="text-black-50 font-Poppins-Regular text-base">
+                                © 2025 ROKK. All Right Reserved.
+                            </a>
+                        </div>
+                        <div className="max-md:mt-6 terms">
+                            <a href="https://rokk-app.com/privacy-policy"
+                                className="text-black-50 font-Poppins-Regular text-base ">
+                                Privacy Policy
+                            </a>
+                            <a href="https://rokk-app.com/terms-of-use"
+                                className="ml-10 text-black-50 font-Poppins-Regular text-base ">
+                                Terms of Use
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
